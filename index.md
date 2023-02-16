@@ -5,8 +5,14 @@
 layout: home
 ---
 
-# home page
+# 这是主页
 
-## test of home page
+## 芝士内容
+
+<div class="blog-post" markdown="1">
 
 [test.md](notes/test.md)
+
+[test1.md](notes/test1.md)
+
+</div>
