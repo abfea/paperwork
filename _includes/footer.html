@@ -10,7 +10,7 @@
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
-              {{ site.title | escape }}
+              <a class="home-page" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
             {%- endif -%}
             </li>
             {%- if site.email -%}
