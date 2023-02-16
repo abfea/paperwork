@@ -31,13 +31,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 defaults:
   -
     scope:
-      path: "notes" # an empty string here means all files in the project
+      path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
 
 # Build settings
 theme: minima
+minima:
+  skin: auto
+  social_links:
+    - { platform: github,  user_url: "https://github.com/abfea" }
+
 plugins:
   - jekyll-feed
 
