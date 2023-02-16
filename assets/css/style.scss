@@ -2,5 +2,6 @@
 ---
 
 @import
-  "minima/skins/{{ site.minima.skin | default: 'auto' }}",
-  "minima/initialize";
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize",
+  "minima/custom-styles";
